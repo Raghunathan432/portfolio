@@ -1,0 +1,135 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(1,1,18,1) 100%, rgba(0,212,255,1) 100%);
+    position: relative;
+}
+.header-coding-illustration {
+    position: absolute;
+    top: -10%;
+    right: 0;    
+    /* transform: translateY(-50%); */
+    width: 55%;
+    animation: bounceImage 2.5s linear infinite alternate;
+}
+.header-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.heading-main {
+    font-size: 56px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;    
+}
+
+.heading-main-subtext {
+    display: block;
+    font-size: 24px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header-btns {
+    text-align: center;
+    margin: 15px;
+}
+
+.header-btn-getintouch {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background: #fff;
+    color: rgb(2,0,36);
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s;
+    animation: bounce 0.6s;
+    animation-delay: 0.4s;
+}
+.header-btn-getintouch:hover {
+    transform: translateY(-5%);
+    box-shadow: 3px 3px 5px 1px rgba(white,  0.7);
+    cursor: pointer;
+}
+.scroll-down {
+    font-size: 48px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.header-social-icons-container {
+    position: absolute; 
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+}
+.social-icons-list {
+    list-style-type: none;
+}
+.social-icons-list-item {
+    margin-top: 25px;
+}
+.social-icons {
+   font-size: 36px;
+   color: #fff; 
+   transition: all 0.2s;
+   cursor: pointer;
+}
+.fa-github:hover {
+    color: #333;
+}
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+
+@media screen and (max-width: 768px) {
+  .heading-main {
+      font-size: 16px;
+  }
+  .heading-main-subtext {
+      font-size: 12px;
+  }
+  .header-btn-getintouch {
+      font-size: 14px;
+      padding: 5px 10px;
+  }
+  .header-coding-illustration {
+      top: 10%;
+      width: 70%;
+  }
+  .social-icons {
+      font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .heading-main {
+        font-size: 28px;
+    }
+    .heading-main-subtext {
+        font-size: 18px;
+    }
+    .header-btn-getintouch {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .header-coding-illustration {
+        top: 5%;
+        width: 55%;
+    }
+    .social-icons {
+        font-size: 24px;
+    }
+}

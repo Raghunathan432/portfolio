@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/efea8104e6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="/js/particles.js"></script>
+    <script src = "js/scripts.js"></script>
+    <title>Raghunathan M S | Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div id="particles-js"></div>
+        <img src="./img/coding-illustration.svg" class = "header-coding-illustration">
+        <div class="header-content">
+            <h1 class="heading-main">
+                <span class = "heading-maintext">I'm Raghunathan MS,</span> 
+                <small class = "heading-main-subtext">Full Stack Web Developer</small>
+            </h1>
+            <div class="header-btns">
+                <button type = "button" class = "header-btn-getintouch">Get in touch</button>
+                <!-- <button type = "button" class = "header-btn-mywork">My Work</button> -->
+            </div>
+            
+        </div>
+        <div class="header-social-icons-container">
+            <ul class="social-icons-list">
+                <li class = social-icons-list-item><i class="fab fa-github social-icons"></i></li>
+                <li class = social-icons-list-item><i class="fab fa-linkedin social-icons"></i></li>
+            </ul>
+        </div>
+        <a href = "#about"><span class="material-icons scroll-down">
+            keyboard_arrow_down
+        </span></a>
+    </header>
+
+    <!-- About -->
+    <section class="about" id = "about">
+        <div class="about-content">
+            <h1 class="section-heading">About</h1>
+            <p class="about-text">
+                <span class="about-text-para about-text-para-1">I am 22, enthusiastic and eager to learn and experience new things. I am an <span class = "about-text-highlight">effective communicator</span>, an <span class = "about-text-highlight">organised and systematic</span> person and a <span class = "about-text-highlight">self starter</span>.</span> 
+                <span class="about-text-para about-text-para-2">Creating things has always been my passion. I started learning web development back in 2017 and I have been learning with every web app I build.</span>
+            </p>
+            <div class="tech-stack-container" data-aos="zoom-in" data-aos-delay = "50 data-aos-delay = "50">
+                <p class = "about-para-sub-heading">The arrows in my quiver</p>
+                <!-- <div class="tech-stack-container"> -->
+                    <ul class="tech-stack-list">
+                        <li class="tech-stack-item">HTML5<i class="fab fa-html5 tech-stack-icons"></i></li>
+                        <li class="tech-stack-item">CSS3<i class="fab fa-css3 tech-stack-icons"></i></li>
+                        <li class="tech-stack-item">SASS<i class="fab fa-sass tech-stack-icons"></i></li>
+                        <li class="tech-stack-item">JavaScript<i class="fab fa-js tech-stack-icons"></i></li>
+                        <li class="tech-stack-item">Vue<i class="fab fa-vuejs tech-stack-icons"></i></li>
+                        <li class="tech-stack-item">Laravel<i class="fab fa-laravel tech-stack-icons"></i></li>
+                        <li class="tech-stack-item">MySQL</li>
+                        <li class="tech-stack-item">Firebase</li>
+                    </ul>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class = "about-right">
+            <div class="about-img-container">
+                <img src = "img/raghu.jpg" class = "about-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section class="work" id = "work">
+        <div class="work-content">
+            <h1 class="section-heading work-heading">Work</h1>
+            <div class="work-content-item-container">
+                <div class="left">
+                    <div class="work-content-item left-item left-item-odd" data-aos = "fade-right">
+                        <div class="work-item-thumbnail">
+                            <img src="./img/book-tracker.svg" alt="" class = "work-content-img">
+                        </div>
+                        <h2 class="work-content-item-heading">Book Tracker</h2>
+                        <p class = "work-content-item-description">A simple responsive web app to track your reading. It consists of a CRUD (Create, Read, Update, Delete) system with authentication for users powered by Firebase. </p>
+                        <div class="work-tech-stack">
+                            <div class="work-tech-stack-chip">HTML5</div>
+                            <div class="work-tech-stack-chip">CSS3</div>
+                            <div class="work-tech-stack-chip">Vue</div>
+                            <div class="work-tech-stack-chip">Firebase</div>
+                            <div class="work-tech-stack-chip">Books API</div>
+                        </div>
+                        <div class="work-btns-container">
+                            <a href="https://github.com/Raghunathan432/book-tracker"><button class="source-code work-btns">Source <i class="fab fa-github work-icons"></i></button></a>
+                            <a href="https://book-tracker-323606.firebaseapp.com"><button class="demo work-btns">Demo <i class="fas fa-external-link-alt"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="work-content-item left-item left-item-even" data-aos="fade-right">
+                        <div class="work-item-thumbnail">
+                            <img src="./img/saas.svg" alt="" class = "work-content-img">
+                        </div>
+                        <h2 class="work-content-item-heading">SaaS Product Landing Page</h2>
+                        <p class = "work-content-item-description">A responsive front end design for a SaaS product landing page.</p>
+                        <div class="work-tech-stack">
+                            <div class="work-tech-stack-chip">HTML5</div>
+                            <div class="work-tech-stack-chip">CSS3</div>
+                        </div>
+                        <div class="work-btns-container">
+                            <a href="https://github.com/Raghunathan432/Service-Pro"><button class="source-code work-btns">Source <i class="fab fa-github work-icons"></i></button></a>
+                            <a href=""><button class="demo work-btns">Demo <i class="fas fa-external-link-alt"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="work-content-item right-item right-item-odd" data-aos="fade-left" data-aos-delay = "50">
+                        <div class="work-item-thumbnail">
+                            <img src="./img/pubnub.svg" alt="" class = "work-content-img">
+                        </div>
+                        <h2 class="work-content-item-heading">Chat Application</h2>
+                        <p class = "work-content-item-description">As part of an internship I did for <a href="https://radiostud.io" class = "work-item-link">RadioStudio Pvt. Ltd., I created a chat application using Vue and Laravel as well the PubNub API to publish and receive messages.</a></p>
+                        <div class="work-tech-stack">
+                            <div class="work-tech-stack-chip">HTML5</div>
+                            <div class="work-tech-stack-chip">CSS3</div>
+                            <div class="work-tech-stack-chip">Vue</div>
+                            <div class="work-tech-stack-chip">PubNub API</div><br>
+                            <div class="work-tech-stack-chip">Laravel</div>
+                            <div class="work-tech-stack-chip">MySQL</div>
+                        </div>
+                        <div class="work-btns-container">
+                            <a href="https://github.com/shyampurk/LaravelBasicChatApp"><button class="source-code work-btns">Source <i class="fab fa-github work-icons"></i></button></a>
+                            <a href="https://www.pubnub.com/blog/building-a-laravel-chat-app-with-php-vue-js-and-pubnub/"><button class="demo work-btns">Blog Post <i class="fas fa-external-link-alt"></i></button></a>
+                        </div>
+                </div>
+                <div class="work-content-item right-item right-item-even" data-aos="fade-left" data-aos-delay = "50">
+                    <div class="work-item-thumbnail">
+                        <img src="./img/warde.svg" alt="" class = "work-content-img">
+                    </div>
+                    <h2 class="work-content-item-heading">Warde</h2>
+                    <p class = "work-content-item-description">A minimalistic, responsive design concept for a sign in page I hacked on in an hour due to boredom in my college laboratory.</p>
+                    <div class="work-tech-stack">
+                        <div class="work-tech-stack-chip">HTML5</div>
+                        <div class="work-tech-stack-chip">CSS3</div>
+                    </div>
+                    <div class="work-btns-container">
+                        <a href="https://github.com/Raghunathan432/Warde"><button class="source-code work-btns">Source <i class="fab fa-github work-icons"></i></button></a>
+                        <a href="https://Raghunathan432.github.io/Warde"><button class="demo work-btns">Demo <i class="fas fa-external-link-alt"></i></button></a>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text-container">
+                <p class = "footer-developed-text">Developed using HTML, CSS along with Particles.js, AOS library. Illustrations from
+                    <a href="https://undraw.co/illustrations">Undraw</a>
+                </p>
+            </div>
+            <div class="footer-btn-container">
+                <button class="footer-btn">
+                    Let's talk <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+    <script src = "js/aos.js"></script>
+</body>
+</html>
