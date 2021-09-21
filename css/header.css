@@ -96,10 +96,10 @@
 
 @media screen and (max-width: 768px) {
   .heading-main {
-      font-size: 16px;
+      font-size: 20px;
   }
   .heading-main-subtext {
-      font-size: 12px;
+      font-size: 14px;
   }
   .header-btn-getintouch {
       font-size: 14px;
@@ -107,7 +107,7 @@
   }
   .header-coding-illustration {
       top: 10%;
-      width: 70%;
+      width: 80%;
   }
   .social-icons {
       font-size: 24px;

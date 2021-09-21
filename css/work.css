@@ -1,7 +1,7 @@
 .work {
     width: 100vw;
     background: rgba(198,198,198,1);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .work-content {
     width: 100%;
@@ -129,6 +129,8 @@
     }
     .work-content-item-container {
         display: block;
+        text-align: center;
+        padding-bottom: 25px;
     }
     .work-content-item {
         padding: 60px;
@@ -137,7 +139,7 @@
         position: relative;
         text-align: left !important;
         transition: all 0.3s;
-        margin: 20px auto !important;
+        margin: 20px auto 0 !important;
     }
     .right {
         margin-top: 20px;
@@ -145,14 +147,17 @@
     .work-btns {
         font-size: 12px;
     }
+    .left-item {
+        margin: auto;
+    }
 
 }
 
 @media screen and (min-width: 977px) and (max-width: 1276px) {
     .work {
         padding-top: 50px;
+        text-align: center;
     }
-    
     .work-content-item {
         margin: 20px auto !important;
     }
