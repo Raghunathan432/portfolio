@@ -31,5 +31,14 @@ a, a:hover, a:focus, a:active {
     text-align: center;
 }
 
+.no-mobile {
+    visibility: visible;
+}
+
+@media screen and (max-width : 576px) {
+    .no-mobile {
+        visibility: hidden;
+    }
+}
 
 

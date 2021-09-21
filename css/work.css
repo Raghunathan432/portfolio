@@ -1,7 +1,7 @@
 .work {
     width: 100vw;
     background: rgba(198,198,198,1);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .work-content {
     width: 100%;
@@ -116,6 +116,20 @@
     transform : translateX(50%);
 }
 
+@media screen and (max-width : 576px) {
+    .work-content-item-container {
+        text-align: center;
+        margin: 0;
+    }
+    .work {
+        margin: 0;
+    }
+    .work-content-item {
+        margin: 0;
+    }
+    
+}
+
 @media screen and (max-width: 976px) {
     .work {
         padding-top: 50px;
@@ -141,8 +155,9 @@
         transition: all 0.3s;
         margin: 20px auto 0 !important;
     }
-    .right {
-        margin-top: 20px;
+    .left, .right {
+        margin: 20px auto;
+    
     }
     .work-btns {
         font-size: 12px;
