@@ -125,18 +125,18 @@
         width: 100%;
     }
     .heading-main {
-        font-size: 18px;
+        font-size: 22px;
     }
     .heading-main-subtext {
         font-size: 12px;
     }
     .header-btn-getintouch {
-        font-size: 10px;
-        padding: 5px 10px;
+        font-size: 12px;
+        padding: 8px 16px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .header-coding-illustration {
         top: 15%;
     }
