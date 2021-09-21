@@ -125,10 +125,10 @@
         width: 100%;
     }
     .heading-main {
-        font-size: 16px;
+        font-size: 18px;
     }
     .heading-main-subtext {
-        font-size: 10px;
+        font-size: 12px;
     }
     .header-btn-getintouch {
         font-size: 10px;
@@ -136,6 +136,17 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .header-coding-illustration {
+        top: 15%;
+    }
+    .heading-main {
+        font-size: 16px;
+    }
+    .heading-main-subtext {
+        font-size: 10px;
+    }
+}
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .heading-main {
         font-size: 28px;
