@@ -95,6 +95,7 @@
 }
 
 
+
 @media screen and (max-width: 768px) {
   .heading-main {
       font-size: 20px;
@@ -108,11 +109,31 @@
   }
   .header-coding-illustration {
       top: 10%;
-      width: 80%;
+      width: 55%;
   }
   .social-icons {
       font-size: 24px;
   }
+  .scroll-down {
+      bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .header-coding-illustration {
+        top: 10%;
+        width: 100%;
+    }
+    .heading-main {
+        font-size: 16px;
+    }
+    .heading-main-subtext {
+        font-size: 10px;
+    }
+    .header-btn-getintouch {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
